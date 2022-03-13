@@ -6,3 +6,4 @@ file 4 a program that prints the alphabet in lowercase, followed by a new line.
 program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 File 6 prints all single digit numbers of base 10 starting from 0
 file 7 Print reverse alphabet
+file 8 prints all the numbers of base 16 in lowercase
