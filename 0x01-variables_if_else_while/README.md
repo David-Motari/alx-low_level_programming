@@ -7,3 +7,4 @@ program that prints all single digit numbers of base 10 starting from 0, followe
 File 6 prints all single digit numbers of base 10 starting from 0
 file 7 Print reverse alphabet
 file 8 prints all the numbers of base 16 in lowercase
+file 9 all possible combinations of single-digit numbers
