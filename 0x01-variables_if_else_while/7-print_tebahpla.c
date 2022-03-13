@@ -1,23 +1,19 @@
 #include <stdio.h>
-
 /**
-*main - prints all single digit numbers of base 10 starting from 0.
+*main - prints the lowercase alphabet in reverse.
 *
-*You are not allowed to use any variable of type char
 *You can only use the putchar function
 *(every other function (printf, puts, etc…) is forbidden)
-*You can only use putchar twice in your code
 *All your code should be in the main function
+*You can only use putchar twice in your code.
 *Return: 0
 */
-
 int main(void)
 {
-int i;
-
-for (i = 0; i < 10; i++)
+int t;
+for (t = 122; t < 96; t--)
 {
-putcar(i);
+putchar(t);
 }
 putchar('\n');
 return (0);
