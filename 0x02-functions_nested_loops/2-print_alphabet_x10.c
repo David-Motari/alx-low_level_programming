@@ -15,5 +15,5 @@ for (i = 0; i < 10; i++)
 for (mot = 'a'; mot <= 'z'; mot++);
 _putchar(mot);
 }
-_putchar('\n')
+ _putchar('\n');
 }
