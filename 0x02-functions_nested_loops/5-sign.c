@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *_sign - checks if sign on number is postive or negative.
+ *print_sign - checks if sign on number is postive or negative.
  *@n: integer to be assessed
  *
  *Checks sign of number positive or negative.
@@ -9,7 +9,7 @@
  */
 int print_sign(int n)
 {
-if (n < 0)
+if (n > 0)
 {
 _putchar('+');
 return (1);
