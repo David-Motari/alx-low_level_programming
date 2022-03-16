@@ -1,8 +1,10 @@
+#include <stdio.h>
 #include "main.h"
 
 /**
+*main - for real
 *print_alphabet x10 - prints 10 times the alphabet, in lowcase. 
-*
+*_putchar prints
 *
 *Return: void
 */
