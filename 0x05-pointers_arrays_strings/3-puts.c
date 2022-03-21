@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- *_puts prits a string in standard output
- *@str: string to be printed
- *
- *Return: 0
- */
+*_puts -  prints string in stdout
+*@str: string to be printed
+*
+*Return: 0
+*/
 
 void _puts(char *str)
 {
