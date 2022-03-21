@@ -17,8 +17,10 @@ for (c = 0; c <= 14; c++)
 {
 if (c < 10)
 b = c;
-else {
-a = c / 10; b = c % 10;
+else 
+{
+a = c / 10;
+b = c % 10;
 _putchar('0' + a);
 }
 _putchar('0' + b);
