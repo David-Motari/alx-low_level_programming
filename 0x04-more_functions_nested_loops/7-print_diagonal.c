@@ -2,7 +2,7 @@
 
 /**
 *print_diagonal - prints diagonal using backslash
-*@n - variable
+*@n - number of times \ is printed
 *
 *Return: 0
 */
