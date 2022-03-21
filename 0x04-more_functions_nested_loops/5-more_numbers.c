@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
-*more_numbers - prints 1 - 14, x10
-*@i: variable
-*@j: variable
+*more_numbers - prints 1 to 14 ten times
 *
 *Prints 1 - 14 ten times
 *Return: 0
@@ -11,16 +9,21 @@
 
 void more_numbers(void)
 {
-char i, j;
-i = 0;
-while (i < 10)
+char a, b, c, i;
+
+for (i = 0; i < 10; i++)
 {
-j = 0;
-while(j < 14)
+for (c = 0; c <= 14; c++)
 {
-_putchar(j);
+if (c < 10)
+b = c;
+else {
+a = c / 10; b = c % 10;
+_putchar('0' + a);
+}
+_putchar('0' + b);
 }
 _putchar('\n');
-i++;
 }
 }
+
