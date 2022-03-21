@@ -2,7 +2,7 @@
 
 /**
  *print_line - prints underscore
- *@n: number of times underscore prints 
+ *@n: number of times underscore prints
  *
  *Return: 0
  */
@@ -15,5 +15,6 @@ for (i = 0; i < n; i++)
 {
 _putchar('_');
 }
+_putchar('\n');
 }
 
