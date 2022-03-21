@@ -17,7 +17,7 @@ for (c = 0; c <= 14; c++)
 {
 if (c < 10)
 b = c;
-else 
+else
 {
 a = c / 10;
 b = c % 10;
