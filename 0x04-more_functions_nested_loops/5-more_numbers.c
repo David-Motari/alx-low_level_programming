@@ -16,14 +16,11 @@ i = 0;
 while (i < 10)
 {
 j = 0;
-while (j < 14)
+while(j < 14)
 {
 _putchar(j);
-j++;
 }
 _putchar('\n');
 i++;
 }
-_putchar('\n');
 }
-
