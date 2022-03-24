@@ -2,23 +2,23 @@
 
 /**
 **_strcat - concats two strings
-*@s1: src
-@s2: dest
+*src: string one(Source)
+*@dest: String two(Destination)
 *
 *Return: dest
 */
 
 char *_strcat(char *dest, char *src)
 {
-int a, b;
+int i, j;
 
-a = b = 0;
-while (*(dest + a))
-a++;
-while ((*(dest + a) = *(src + b)))
+i = j = 0;
+while (*(dest + i))
+i++;
+while ((*(dest + i) = *(src + j)))
 {
-a++;
-b++;
+i++;
+j++;
 }
 return (dest);
 }
