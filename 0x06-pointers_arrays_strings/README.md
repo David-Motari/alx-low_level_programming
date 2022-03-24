@@ -3,3 +3,4 @@ File 0 concates two strings
 File 1 concats two strings
 File 2 copies string
 
+File 3 compares strings
