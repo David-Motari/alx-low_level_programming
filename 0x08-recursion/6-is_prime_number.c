@@ -2,7 +2,9 @@
 
 /**
  * prime_check - checks to see if number is prime
- * @f: factor ch* @p: possible prime number
+ * @f: factor ch
+ * @p: possible prime number
+ *
  * Return: 1 if prime, 0 if not
  */
 int prime_check(int f, int p)
