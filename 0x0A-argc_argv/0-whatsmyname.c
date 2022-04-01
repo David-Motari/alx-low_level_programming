@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- *main - prints name and new line
- *
- *Return: 0
- */
+*main - prints name and new line
+*@argc: jgjgjg
+*@argv: ncnckdkdn
+*
+*Return: 0
+*/
 
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
