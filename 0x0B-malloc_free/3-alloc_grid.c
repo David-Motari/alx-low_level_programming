@@ -30,7 +30,7 @@ if (tD[hgt_i] == NULL)
 for (; hgt_i >= 0; hgt_i--)
 free(tD[hgt_i]);
 
-free (tD);
+free(tD);
 return (NULL);
 }
 }
