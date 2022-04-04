@@ -1,0 +1,11 @@
+#include "holberton.h"
+#include <stdlib.h>
+
+/**
+*alloc_grid - function that returns pointer to 2D array of ints
+*@width: width of 2D array
+*@height: height of 2D array
+*
+*Return: if w <= 0 / h <= 0 of function fails NULL
+*else pointer to 2D array
+*/
