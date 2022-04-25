@@ -1,2 +1,1 @@
-More Singly Linked Lists
-File 0 prints all elements in a linked list
+This repository contains C projects and other low level programming exercices.
