@@ -5,5 +5,6 @@ file 2 Functione that adds node at the beginning of the list
 File 3 Function that adds node at the end of list
 File 4 Function that frees list
 File 5 Function that frees list
-File 6 function that deletes the head node 
+File 6 function that deletes the head node of linked list
+File 7 function that returns the nth node of linked list
 File 9 function that inserts node into list
