@@ -12,4 +12,5 @@ File 9 function that inserts node into list.
 File 10 function that deletes the node at index.
 File 100 is function that reverses list.
 File 101 function that prints a linked list.
-
+File 102 function that frees linked list safely.
+File 103 function that finds the loop in a linked list.
