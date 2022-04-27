@@ -11,3 +11,4 @@ File 8 function that sums nodes in list
 File 9 function that inserts node into list
 File 10 function that deletes the node at index
 
+File 100 is function that reverses list
