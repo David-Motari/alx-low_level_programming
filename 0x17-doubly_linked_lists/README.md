@@ -19,8 +19,8 @@
 ## File 8:
 * Delets a node at a given position.
 ## File 100:
-* Finds the password for [crackme4].(https://github.com/holbertonschool/0x16.c)
+* Finds the password for .[crackme4].(https://github.com/holbertonschool/0x16.c)
 ## File  102:
 * Finds the larges palidrome from a product of two 3-digit numbers.
 ## File 103:
-* keygen for [crackme5].(https://github.com/holbertonschool/0x16.c)
+* keygen for .[crackme5].(https://github.com/holbertonschool/0x16.c)
