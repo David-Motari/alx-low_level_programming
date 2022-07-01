@@ -1,32 +1,47 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_delete - function that deletes a hash table
- * @ht: hash table
- * Return: void
+ * hash_table_print - Print all the hash table (include array and list)
+ *
+ * @ht: Pointer to the hash table (hash_table_t *)
+ *
+ * Return: Void.
  */
 
-void hash_table_delete(hash_table_t *ht)
+void hash_table_print(const hash_table_t *ht)
 {
-	unsigned long int index = 0;
-	hash_node_t *temp, *prev = NULL;
+	unsigned long int i = 0;
+	int counter = 0;
+	hash_node_t **arr = NULL;
+	hash_node_t *nodes = NULL;
 
-	if (!ht)
+	if (!ht || !ht->array)
 		return;
 
-	for (; index < ht->size; index++)
+	arr = ht->array;
+
+	printf("{");
+
+	for (; i < ht->size; i++)
 	{
-		temp = ht->array[index];
-		while (temp != NULL)
+		if (ht->array[i] != NULL)
 		{
-			free(temp->key);
-			free(temp->value);
-			prev = temp;
-			temp = temp->next;
-			free(prev);
+			counter++;
+			if (counter == 2)
+				printf(", "), counter = 1;
+			printf("'%s': '%s'", arr[i]->key, arr[i]->value);
+			nodes = arr[i]->next;
+			if (nodes)
+			{
+				printf(", ");
+				for (; nodes; nodes = nodes->next)
+				{
+					printf("'%s': '%s'", nodes->key, nodes->value);
+					if (nodes->next)
+						printf(", ");
+				}
+			}
 		}
-		free(temp);
 	}
-	free(ht->array);
-	free(ht);
+	printf("}\n");
 }
